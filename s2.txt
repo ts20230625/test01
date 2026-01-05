@@ -1,0 +1,70 @@
+E:\work\For_3650\5.2\E3_SSDK_PTG5.2_Source_Code3\ssdk\tools\common\toolchains\JLINK\E3650>"C:\Program Files\SEGGER\JLink_V812b\JLink.exe" -JLinkScriptFile my_lp.JLinkScript
+SEGGER J-Link Commander V8.12b (Compiled Jan 15 2025 12:16:22)
+DLL version V8.12b, compiled Jan 15 2025 12:15:23
+
+Connecting to J-Link via USB...O.K.
+Firmware: J-Link V12 compiled Nov 10 2025 13:42:51
+Hardware version: V12.00
+J-Link uptime (since boot): 0d 10h 26m 12s
+S/N: 941000024
+License(s): RDI, FlashBP, FlashDL, JFlash, GDB
+USB speed mode: High speed (480 MBit/s)
+VTref=3.173V
+
+
+Type "connect" to establish a target connection, '?' for help
+J-Link>
+J-Link>
+J-Link>con
+Please specify device / core. <Default>: CORTEX-R5
+Type '?' for selection dialog
+Device>
+Please specify target interface:
+  J) JTAG (Default)
+  S) SWD
+  T) cJTAG
+TIF>s
+Specify target interface speed [kHz]. <Default>: 4000 kHz
+Speed>
+Device "CORTEX-R5" selected.
+
+
+Connecting to target via SWD
+ConfigTargetSettings() start
+----------------J-Link script: ConfigTargetSettings() For Semdrive E3 Cortex-R5 LP---------------
+ConfigTargetSettings() end - Took 1.29ms
+InitTarget() start
+DAP-CtrlStat: 0xF0000040
+read data via AHB-AP: 0xE0001F07
+read data via AHB-AP: 0x00000003
+Jlink_AHB_AP_Write DestAddr: 0xF0431A04
+Write data via AHB-AP and read back: 0xE0001F07
+Jlink_AHB_AP_Write DestAddr: 0xF07C1604
+Write data via AHB-AP and read back: 0x00000003
+InitTarget() end - Took 615ms
+Found SW-DP with ID 0x4C013477
+DPIDR: 0x4C013477
+CoreSight SoC-600 or later (DPv3 detected)
+AP map detection skipped. User specified AP map and usage.
+Using preconfigured AP[0] as APB-AP
+AP[0]: APB-AP found
+Found Cortex-R5 r1p3
+8 code breakpoints, 8 data breakpoints
+Debug architecture ARMv7.0
+Data endian: little
+Main ID register: 0x411FC153
+I-Cache L1: 8 KB, 64 Sets, 32 Bytes/Line, 4-Way
+D-Cache L1: 4 KB, 32 Sets, 32 Bytes/Line, 4-Way
+TCM Type register: 0x00010001
+MPU Type register: 0x00001000
+System control register:
+  Instruction endian: little
+  Level-1 instruction cache disabled
+  Level-1 data cache disabled
+  MPU disabled
+  Branch prediction enabled
+Memory zones:
+  Zone: "Default" Description: Default access mode
+  Zone: "APB-AP (AP0)" Description: DMA like acc. in AP0 addr. space
+  Zone: "AHB-AP (AP1)" Description: DMA like acc. in AP1 addr. space
+Cortex-R5 identified.
