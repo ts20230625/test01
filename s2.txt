@@ -10,7 +10,7 @@ S/N: 941000024
 License(s): RDI, FlashBP, FlashDL, JFlash, GDB
 USB speed mode: High speed (480 MBit/s)
 
-VTref=3.173Vsfsf DEV
+VTref=3.173Vsfsf E3650 rebase
 
 
 Type "connect" to establish a target connection, '?' for help
