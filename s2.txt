@@ -9,7 +9,7 @@ J-Link uptime (since boot): 0d 10h 26m 12s
 S/N: 941000024
 License(s): RDI, FlashBP, FlashDL, JFlash, GDB
 USB speed mode: High speed (480 MBit/s)
-VTref=3.173Vsfsf mian 260310_05
+VTref=3.173Vsfsf mian 260310_06
 
 
 
